@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="conditional_operator_10_tasks.vcxproj" Id="2299abd5-baeb-45f0-9e59-b99e1c49435f" />
+</Solution>
