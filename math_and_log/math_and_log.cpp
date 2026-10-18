@@ -193,10 +193,10 @@ int quest5() {
         if (digit == 0 && !(password[i]<'0' || password[i]>'9')) {
             digit = 1;
         }
-        else if (up_reg== 0 && (password[i] <= 'z' || password[i]>='a')) {
+        else if (up_reg== 0 && (password[i] <= 'z' && password[i]>='a')) {
             up_reg = 1;
         }
-        else if (bot_reg == 0 && (password[i] <= 'Z' || password[i]>='A')) {
+        else if (bot_reg == 0 && (password[i] <= 'Z' && password[i]>='A')) {
             bot_reg = 1;
         }
            
@@ -218,7 +218,7 @@ int quest5() {
 
 int quest6() {
     double x, y, x0, y0, r, theta;
-    int type, n;
+    int type, n=0;
     cout << "Введите координаты точки x: ";
     cin >> x;
     cout << "Введите координаты точки y: ";
@@ -245,8 +245,10 @@ int quest6() {
         n = 5;
         break;
     default:
-        cout << "Такого выбора нет";
+        cout << "Такого выбора нет, n=3";
+        n = 0;
         break;
+        
     }
 
     x = x - x0; //dx
