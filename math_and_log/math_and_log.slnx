@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="math_and_log.vcxproj" Id="d33935d4-5667-4229-8ba5-f74659797f5f" />
+</Solution>
